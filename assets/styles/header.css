@@ -1,0 +1,27 @@
+.header {
+    background-color: #15c3d6;
+    padding: .75rem 1.5rem;
+}
+
+.header .wrapper {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.header__logo {
+    height: 80px;
+    width: 80px;
+}
+
+.header__menu-toggle {
+    background-color: transparent;
+    border: none;
+}
+
+.header__menu-toggle svg {
+    color: #ffffff;
+    width: 48px;
+    height: 48px;
+}

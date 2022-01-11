@@ -1,0 +1,29 @@
+.slider,
+.slider__bullets {
+    list-style: none;
+}
+
+.slider__item {
+    display: none;
+    margin: auto;
+    width: 70%;
+}
+
+.slider__item--visible {
+    display: block;
+}
+
+.slider__bullets {
+    display: flex;
+    justify-content: center;
+}
+
+.slider__bullets li {
+    display: block;
+    margin: 1.5rem 1rem;
+}
+
+.slider__bullets li input {
+    height: 20px;
+    width: 20px;
+}

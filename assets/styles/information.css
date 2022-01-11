@@ -1,0 +1,107 @@
+.information .wrapper {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    grid-template-areas: 
+        "address"
+        "form"
+        "location"
+        "contact";
+}
+
+.address {
+    grid-area: address;
+}
+
+.contact-form {
+    grid-area: form;
+}
+
+.location {
+    grid-area: location;
+    margin: 1.5rem 0;
+    width: 100%;
+}
+
+.contact {
+    grid-area: contact;
+}
+
+.address__heading,
+.contact__heading {
+    color: #2e4a7d;
+    margin: 1rem 0;
+    text-align: center;
+}
+
+.address__details {
+    list-style: none;
+}
+
+.address__details li {
+    display: flex;
+    align-items: center;
+}
+
+.address__details li img {
+    padding: 1rem 1rem 1rem 0;
+}
+
+.address__details li p {
+    color: #2e4a7d;
+    font-weight: 700;
+}
+
+form {
+    margin: 2rem 0;
+}
+
+.input,
+.textarea {
+    background-color: #ffffff;
+    border: none;
+    border-radius: .5rem;
+    margin-bottom: 1rem;
+    padding: .75rem;
+    width: 100%;
+}
+
+.submit-button {
+    background-color: #2e4a7d;
+    border: none;
+    border-radius: .5rem;
+    color: #ffffff;
+    font-weight: 700;
+    padding: 1rem;
+    width: 100%;
+}
+
+.contact__options {
+    list-style: none;
+}
+
+.contact__options li {
+    align-items: center;
+    display: flex;
+    margin-bottom: 1rem;
+}
+
+.contact__options li div {
+    background-color: #2e4a7d;
+    border-radius: 50%;
+    height: 48px;
+    margin-right: 1rem;
+    width: 48px;
+}
+
+.contact__options li div svg {
+    color: #ffffff;
+    display: block;
+    height: 48px;
+    margin: auto;
+}
+
+.contact__options li p {
+    color: #2e4a7d;
+    font-weight: 700;
+}

@@ -1,0 +1,17 @@
+footer {
+    background-color: #15c3d6;
+    border-top-right-radius: 5rem;
+}
+
+footer img {
+    display: inline-block;
+    height: 120px;
+    vertical-align: middle;
+    width: 120px;
+}
+
+footer h3 {
+    color: #ffffff;
+    display: inline-block;
+    vertical-align: middle;
+}

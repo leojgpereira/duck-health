@@ -1,0 +1,27 @@
+@import url("./header.css");
+@import url("./navbar.css");
+@import url("./hero.css");
+@import url("./about.css");
+@import url("./slider.css");
+@import url("./exams.css");
+@import url("./information.css");
+@import url("./footer.css");
+@import url("./responsive.css");
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #ebf2f5;
+    font-family: 'Nunito', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+section {
+    padding: .75rem 1.5rem;
+}

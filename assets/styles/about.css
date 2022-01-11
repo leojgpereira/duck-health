@@ -1,0 +1,11 @@
+.about__heading {
+    color: #2e4a7d;
+    margin: 1.5rem 0;
+    text-align: center;
+}
+
+.about__text {
+    color: #2e4a7d;
+    text-align: justify;
+    margin-bottom: 1.5rem;
+}

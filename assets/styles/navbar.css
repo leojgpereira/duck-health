@@ -1,0 +1,14 @@
+.navbar {
+    display: none;
+}
+
+.navbar ul {
+    list-style: none;
+}
+
+.navbar__link {
+    color: #ffffff;
+    font-weight: 700;
+    text-decoration: none;
+    text-transform: uppercase;
+}

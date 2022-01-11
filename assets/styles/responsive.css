@@ -1,0 +1,134 @@
+@media screen and (min-width: 768px) {
+    /* Hero */
+    .hero__image {
+        margin: auto;
+        width: 75%;
+    }
+
+    /* Slider */
+
+    .slider__item {
+        width: 50%;
+    }
+
+    /* Information */
+
+    .information {
+        margin: 1.5rem auto;
+        width: 75%;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .wrapper {
+        margin: auto;
+        width: 1250px;
+    }
+
+    /* Header */
+
+    .header__menu-toggle {
+        display: none;
+    }
+    
+    .header .wrapper {
+        align-items: center;
+    }
+
+    /* Navbar */
+
+    .navbar {
+        display: block;
+    }
+
+    .navbar ul {
+        display: flex;
+        justify-content: center;
+    }
+
+    .navbar__item{
+        margin-left: 3rem;
+    }
+
+    .navbar__link {
+        font-size: 1.25rem;
+    }
+
+    /* Hero */
+
+    .hero .wrapper {
+        align-items: center;
+        display: flex;
+    }
+
+    .hero__left {
+        width: 45%;
+    }
+
+    .hero__heading {
+        font-size: 3rem;
+    }
+
+    .hero__image {
+        margin-right: 0;
+    }
+
+    /* About */
+
+    .about .wrapper {
+        align-items: center;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .about__right,
+    .about__left {
+        width: 45%;
+    }
+
+    /* Slider */
+
+    .slider__item {
+        width: 100%;
+    }
+
+    /* Exams */
+
+    .exams ul {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .exams__item {
+        margin: 1rem .75rem;
+        width: 30%;
+    }
+
+    /* Information */
+
+    .information .wrapper {
+        column-gap: 2.5rem;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: auto;
+        grid-template-areas: 
+        "address location" 
+        "form contact";
+        row-gap: 2.5rem;
+    }
+
+    .contact-form {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .contact-form .input {
+        width: 49%;
+    }
+
+    .contact-form .textarea,
+    .contact-form .submit-button {
+        width: 100%;
+    }
+}
